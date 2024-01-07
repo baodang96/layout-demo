@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout3</title>
+    <style>
+        .wrapper{
+            height: 650;
+            width: 100%;
+            border: 2px solid black;
+            background-color: bisque;
+        }
+        .header{
+            text-align: center;
+            border-bottom:2px solid black;
+        }
+        .menu{
+            text-align: center;
+            border-bottom:2px solid black;
+        }
+        .center{
+            display: flex; /*Cho các thẻ div phần center chia theo chiều ngang*/
+        }
+        .nav {
+            height: 400px;
+            width: 30%;
+            border-bottom:2px solid black;
+        }
+        .content{
+            height: 400px;
+            width: 40%;
+            border-left: 2px solid black;
+            border-right: 2px solid black;
+            border-bottom: 2px solid black;
+        }
+        .section{
+            height: 400px;
+            width: 30%;
+            border-bottom:2px solid black;
+        }
+        .footer{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">&ltheader&gt</div>
+        <div class="menu">&ltmenu&gt</div>
+        <div class="center">
+            <div class="nav">&ltnav&gt</div>
+            <div class="content"></div>
+            <div class="section">&ltsection&gt</div>
+        </div>
+        <div class="footer">&ltfooter&gt</div>
+    </div>
+</body>
+</html>
